@@ -1,0 +1,53 @@
+body
+{
+    background-color: white;
+    color: black;
+
+}
+header
+{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    height: 100px;
+
+}
+._23
+{
+    background-color:rgb(255, 255, 255);
+    width: 200px;
+    height: 400px;
+    margin-top: 65px;
+    margin-left: 280px;
+    border: 2px solid black;
+    text-align: center;
+  z-index: 1;
+  
+}
+._21
+{
+ background-color:rgb(255, 255, 255);
+    width: 200px;
+    height: 400px;
+    margin-top: -404px;
+    margin-left: 530px;
+    border: 2px solid black;
+    text-align: center;
+    z-index: 2;
+ 
+}
+._18
+{
+ background-color:rgb(255, 255, 255);
+    width: 200px;
+    height: 400px;
+    margin-top: -404px;
+    margin-left: 775px;
+    border: 2px solid black;
+    text-align: center;
+    z-index: 3;
+ 
+}
