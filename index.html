@@ -3,36 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
-<header>
-    <nav>
-       <h1>DELTA FEED</h1>
-        <img src="c:\Users\NASA\Pictures\New folder\delta.jpg" alt="" class="logo">
-    </nav>
-</header>
 <body>
-    <div class="mother">
-            <div class="poul"></a><img src="poultry.delta.jpg"  alt="" class="poul_img"><button class="poul_btn" onclick="pageone()">Click</button></div>
-     <div class="cow"><img src="cow.delta.jpg" alt="" class="cow_img"><button class="cow_btn" onclick="pagetwo()">Click</button></div>
-             <div class="chicks"><img src="chicks.jpg" alt="" class="chicks_img"><button class="chicks_btn" onclick="pagethree()">Click</button></div>
+    <div class="menu">
+        <ul>
+            <li class="profile">
+                <div class="user-img">
+                    <img src="delta.jpg" alt="" >
+                </div>
+                <h2>DELTA FEED</h2>
+            </li>
+        
+        
+            <li>
+               <a class="active" href="#">
+                <i class="fas fa-home"></i>
+                <p>Dashbord</p>
+               </a>
+            </li>
+            
+            <li>
+               <a href="#">
+                <i class="fas fa-user"></i>
+                <p>users</p>
+               </a>
+            </li>
+            
+            <li>
+               <a href="#">
+                <i class="fas fa-pen"></i>
+                <p>posts</p>
+               </a>
+            </li>
+            
+            <li>
+               <a href="#">
+                <i class="fas fa-table"></i>
+                <p>category</p>
+               </a>
+            </li>
+            
+            <li>
+               <a href="#">
+                <i class="fas fa-star"></i>
+                <p>favorite</p>
+               </a>
+            </li>
+            
+            <li>
+               <a href="#">
+                <i class="fas fa-cog"></i>
+                <p>Settings</p>
+               </a>
+            </li>
+            
+            <li class="logout">
+               <a href="#">
+                <i class="fas fa-sign out"></i>
+                <p>log out</p>
+               </a>
+            </li>
+        </ul>
     </div>
-    <img src="delta.jpg" alt="" class="delta_img">
-   
+    <div class="content">
+        <div class="title-info">
+            <p>Dashbord</p>
+            <i class="fas fa-chart-bar"></i>
+        </div>
+        <div class="data-info">
+            <div class="box">
+               <div>
+                 <i class="fas fa-user"></i>
+                <p>user</p>
+                <span>100</span>
+               </div>
+            </div>
+            <div class="box">
+               <div>
+                 <i class="fas fa-pen"></i>
+                <p>post</p>
+                <span>1000</span>
+               </div>
+            </div>
+            <div class="box">
+               <div>
+                 <i class="fas fa-table"></i>
+                <p>products</p>
+                <span>100</span>
+               </div>
+            </div>
+            <div class="box">
+               <div>
+                 <i class="fas fa-dollar"></i>
+                <p>rev</p>
+                <span>100</span>
+               </div>
+            </div>
+
+        </div>
+    </div>
 </body>
-<footer>
-    <p>Copyright © 2026 Delta Feed. All rights reserved.</p>
-</footer>
 </html>
-<script>
-    function pageone(){
-        window.location.href="poultry_feed/poultry.html";
-    }
-    function pagetwo(){
-        window.location.href="cow.html";
-    }
-    function pagethree(){
-        window.location.href="chicks.html";
-    }
-</script>
