@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+header
+{
+    margin: 0;
+    padding: 0;
+     background-image: linear-gradient(to right, #01022d, #000);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+nav
+{
+  background-image: linear-gradient(to right, #01022d, #000);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    font-style: italic;
+}
+header nav ul li
+{ 
+    display: inline;
+    margin: 0 20px;
+    list-style: none;
+}   
+header nav ul li a
+{
+    text-decoration: none;
+    color :white;
+}
+body
+{
+    background-image: linear-gradient(to right, #01022d, #000);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+  
+
+
+}
+.av{
+    font-size: 80px;
+    margin-top: 90px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 30px;
+}
+.btn
+{
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-style: italic;
+    margin-left: 50px;
+}
+.container
+{
+    background-image: linear-gradient(to right, #01022de5 30%, #00000088)
+    ,url(images.jfif);
+   
+   
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container:hover
+{
+    background-image: linear-gradient(to right, #01022de5 30% ,transparent ) 
+    ,url(images.jfif);
+   
+}
+.btn:hover
+{
+    background-color:  #01022de5;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: .5s;
+}
+ul a {
+    border-bottom: 2px solid white transparent;
+}
+ul a:hover {
+    border-bottom: 2px solid white ;
+    font-size: 20px;
+}
